@@ -1,6 +1,6 @@
 ## About Project
 
-This FrontEnd project allows you to consult the patient's medical history created within the platform, both the consultation of personal information and the details of each consultation.
+This FrontEnd project allows you to enter an invoice with the required data, allows you to consult it, see the products of each invoice and access through a login validating credentials.
 
 ## Installation
 
