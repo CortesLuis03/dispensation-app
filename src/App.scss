@@ -1,0 +1,40 @@
+$backgrounColor: white;
+
+._app-layout {
+  background-color: $backgrounColor;
+}
+
+._app-layout-content {
+  background-color: $backgrounColor;
+}
+
+._app-layout-sider-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+}
+
+span.ant-layout-sider-zero-width-trigger.ant-layout-sider-zero-width-trigger-left {
+  top: 12px;
+}
+
+Header {
+  color: #ffffff !important;
+  background-color: #3e3e3e !important;
+  border-bottom: 1px solid #ededed;
+  box-shadow: 0px 15px 11px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  .ant-breadcrumb {
+    li {
+      color: white !important;
+      text-transform: capitalize;
+      span {
+        color: white;
+      }
+    }
+  }
+}

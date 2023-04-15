@@ -1,0 +1,39 @@
+._login-container {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 25%;
+  height: 100vh;
+  .ant-space-item {
+    width: 100%;
+  }
+}
+
+._form-input-icon {
+  color: #aeaeae;
+}
+
+@media (max-width: 1400px) {
+  ._login-container {
+    width: 35%;
+  }
+}
+
+@media (max-width: 1000px) {
+  ._login-container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 720px) {
+  ._login-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  ._login-container {
+    width: 95%;
+  }
+}

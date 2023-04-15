@@ -1,0 +1,11 @@
+._welcome-container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 50vh;
+    .ant-space-item {
+      width: 100%;
+    }
+  }
